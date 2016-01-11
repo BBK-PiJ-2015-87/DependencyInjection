@@ -26,7 +26,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="DependencyInjection" target="1.5" />
+      <module name="DependencyInjection" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -6,9 +6,10 @@ import com.google.inject.Injector;
  */
 public class App {
     public static void main(String[] args) {
-        Injector injector = Guice.createInjector();
-        Greeting greeting = injector.getInstance(Greeting.class);
-        greeting.sayHello();
+        Injector injector = Guice.createInjector(new DisplayModule());
+        injector.getInstance(Greeting.class).sayHello();
+        injector.getInstance(Greeting.class).sayHello();
+        injector.getInstance(Greeting.class).sayHello();
         injector.getInstance(Greeting.class).sayHello();
     }
 }
