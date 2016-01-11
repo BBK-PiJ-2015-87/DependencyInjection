@@ -1,3 +1,5 @@
+package guiceApp;
+
 /**
  * Created by vladimirsivanovs on 11/01/2016.
  */
